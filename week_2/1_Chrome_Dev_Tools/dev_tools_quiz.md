@@ -26,6 +26,14 @@ CMD + OPTION + I
 
 * Go to www.ticketswizard.com and analyze the page.  
   * What is the largest image on the website? 
+
+ The background header image.
+ 
   * Explain how you would find out this information, and list the URL of offending image here and how big it is.
 
+I looked in the page's images folder under the Resources tab and looked through the images and found the largest one.
+
+The URL is http://www.ticketswizard.com/App_Themes/PXS_Demo/Images/HeaderBG.png
+
+Its size is 980 x 165
 * Test the www.ticketswizard.com website with google's [PageSpeed Insights](http://www.ticketswizard.com/).  (You can also download the chrome plugin).  What is the lowest hanging fruit to optimize the website?  How many kilobytes of data can be eliminated?
