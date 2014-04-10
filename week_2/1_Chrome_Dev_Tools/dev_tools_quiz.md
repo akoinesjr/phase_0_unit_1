@@ -14,8 +14,7 @@ CMD + OPTION + I
 
 * Go to http://www.postmachina.com/ and analyze and tweak this nicely designed page.
   * What is the current background color for the page?  (Surprisingly, it's not just black!)
-  
-#0b0f11 (nearly black)
+  #0b0f11 (nearly black)
 
   * Tweak the background color to white.
   * Tweak the height of the side bar that contains the logo.  Shrink it down to 85px.
