@@ -10,8 +10,13 @@
 
 * What's the quick key for your OS to spawn the Dev Tools inspector?
 
+CMD + OPTION + I
+
 * Go to http://www.postmachina.com/ and analyze and tweak this nicely designed page.
   * What is the current background color for the page?  (Surprisingly, it's not just black!)
+  
+#0b0f11 (nearly black)
+
   * Tweak the background color to white.
   * Tweak the height of the side bar that contains the logo.  Shrink it down to 85px.
   * Roll over the navigation links.  When you hover over them, they dissapear.  Let's change the hover color to black instead.
