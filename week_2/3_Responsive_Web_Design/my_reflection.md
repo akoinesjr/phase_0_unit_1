@@ -1,5 +1,9 @@
 # U1.W2: Responsive Design Reflection
 
+
+***Answers are in Week 1 and 2 reflection gist.
+
+
 * What is responsive web design? Do you like it?  Do you think it's a good practice? Why or why not?
 * How do you think smartphones and tablets have changed web design? How do you think new technology will change web design in the future?
 * How do you think visually impaired people use the web? Can they? Should we design and development for them?
