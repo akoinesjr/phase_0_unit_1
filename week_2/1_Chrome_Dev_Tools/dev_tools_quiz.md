@@ -22,7 +22,11 @@ CMD + OPTION + I
   * Now take a screenshot of your new (and maybe not so improved) design.  It should match this screenshot: http://postimg.org/image/5ak1jkpl5/
   * Upload your own image to the web using an image hosting service.  It should match the image above. The last nav link in the image above is black because the mouse was hovering there when the screenshot was taken. Do the same, and don't take a screenshot of your whole desktop, just the browser window. (This is part of the challenge.)
 
+http://i.imgur.com/NukITeB.png
+
 * For the postmachina website, why can't you tweak the color of the text "The most important things are not things"?  Please explain.
+
+
 
 * Go to www.ticketswizard.com and analyze the page.  
   * What is the largest image on the website? 
