@@ -1,3 +1,5 @@
+***Answers are in week 1 and 2 response file.
+
 # U1.W2: Design, User Experience, and creating your website Reflection
 
 My Website url: <!-- Website URL here (remove comment) -->
