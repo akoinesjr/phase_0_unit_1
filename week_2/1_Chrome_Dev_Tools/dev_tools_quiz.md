@@ -26,7 +26,7 @@ http://i.imgur.com/NukITeB.png
 
 * For the postmachina website, why can't you tweak the color of the text "The most important things are not things"?  Please explain.
 
-
+I do not know the answer to this. I was able to change the text at the bottom of the page but not the text in question.
 
 * Go to www.ticketswizard.com and analyze the page.  
   * What is the largest image on the website? 
