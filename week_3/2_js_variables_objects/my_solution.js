@@ -1,44 +1,41 @@
-// I paired [by myself, with:] on this challenge.
+/* I paired by myself on this challenge.
+
+Pseudocode
+
+secretNumber = the number 7
+password = the string "just open the door"
+allowedIn = false
+members = an array where first element is the string "John" and fourth is string "Mary"
+
+
+__________________________________________
+Write your code below.
+*/
+secretNumber=7;
+password="just open the door";
+allowedIn=false
+members=["John",'a','b','Mary'];
+
+/*__________________________________________
+Refactored Code: Include a refactored version (or justification of your original code) here. 
+
+The code I used passed all of the tests.
 
 
 
+__________________________________________
+ Reflection: Use the reflection guidelines to write a reflection here. 
 
-// Pseudocode
-// 
-// 
-// 
-// 
+I saw fairly quickly that the assert functions tests whether its first argument is true. I then read
+through the functions and determined that I would have to create variables meeting certain conditions
+in order to pass the tests. 
+ 
+One issue I had with this was that I was not sure exactly how to write the pseudocode in a manner that 
+would be helpful for something as simple as writing variable names.
 
-
-// __________________________________________
-// Write your code below.
-
-
-
-
-
-
-
-// __________________________________________
-// Refactored Code: Include a refactored version (or justification of your original code) here. 
-
-
-
-
-
-// __________________________________________
-// Reflection: Use the reflection guidelines to write a reflection here. 
-// 
-// 
-// 
-// 
-// 
-// 
-
-
-// __________________________________________
-// Driver Code:  Do not alter code below this line.
-
+ __________________________________________
+ Driver Code:  Do not alter code below this line.
+*/
 function assert(test, message, test_number) {
   if (!test) {
     console.log(test_number + "false");
