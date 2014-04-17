@@ -21,9 +21,9 @@ Test 3
 Define a function called "median" that takes an argument "arr"
 	Sort the elements in arr
 	IF the length of arr is odd
-		SET answer to the element in arr at the index, rounded down, of (length of array / 2)
+		SET answer to the element in arr at the index of half the length of the array rounded down.
 	ELSE IF the length of arr is even
-		SET the answer to the average of the elements in arr at the index of (length of array/2) and ([length of array/2]-1)
+		SET the answer to the average of the element in arr at the index of half the length of the array rounded down and the element previous to that element.
 	END
 	PRINT answer
 END
