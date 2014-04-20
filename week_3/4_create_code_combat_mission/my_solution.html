@@ -1,0 +1,139 @@
+<!---* I worked by myself on this challenge
+
+Your mission description:
+ 
+You are in the woods at night. Find your way home safely!
+
+Pseudocode
+ 
+Initialize object user
+
+Set property "living" of user to true
+
+Ask user "You come across a path. Do you walk down it?"
+IF user responds "yes"
+	Tell user "You find a gun. Do you pick it up?"
+		IF user responds "yes"
+			set hasGun property of user to true
+			Tell user "Great. Now you're ready to fight!"
+			Ask user "Do you continue down the path?"
+				IF user responds "yes"
+					Tell user "You are attacked by a zombie! Do you fight back?"
+						IF user responds "yes"
+							IF hasGun=true
+								Tell user "You shoot and kill the zombie! Good work!"
+								Tell user "Would you like to keep walking down the path?"
+								IF user responds "yes"
+									Tell user "You've finally made it home! You win!"
+								IF user responds with anything else
+									"The path appears to be the only way out of the woods. Are you sure you don't want to go down it?"
+							ELSE
+								Tell user "You try to defend yourself but the zombie rips off your head and you die! If only you'd had a gun!"			
+						ELSE
+							"The zombie rips your head off! You're dead!"
+							Set property "living" of user to false
+				If user responds with anything else
+						"The path appears to be the only way out of the woods. Are you sure you don't want to go down it?"
+If user responds with anything else
+	"The path appears to be the only way out of the woods. Are you sure you don't want to go down it?"
+
+
+ 
+ 
+*/ 
+
+// Initial Code
+-->
+<html>
+<head>
+	   
+</head>
+
+<body>
+<p id="character">YOU</p>
+
+<p> PATH------>GUN----->PATH---->ZOMBIE----PATH---->HOME</p>
+
+<style>
+#character{
+	position:absolute; 
+	left: 13; 
+	top: 30; 
+}
+</style>
+
+
+
+<script type="text/javascript">
+var user={};
+user.living=true;
+
+	document.write("<p>You are in the woods at night. Find your way home!</p>");
+   var walk=prompt("Do you walk down the path?");
+   if(walk=="yes"){
+   	  document.getElementById("character").style.left=80+"px";
+	    var gun = prompt("You find a gun. Do you pick it up?");
+	    if(gun=="yes"){
+	        user.hasGun=true;
+	      	document.write("<p>Great. Now you're ready to fight.</p>");
+	    } 
+
+	    var walk2=prompt("Do you continue down the path?");
+	    if(walk2=="yes"){
+	    	 document.getElementById("character").style.left=200+"px";
+	    	var fight=prompt("You are attacked by a zombie. Do you fight back?");
+	    		if(fight=="yes"){
+	    			if(user.hasGun==true){
+	    				document.write("<p>You shoot and kill the zombie!</p>");
+	    				var walk3=prompt("Do you continue down the path?");
+	    					if(walk3=="yes"){
+	    						document.getElementById("character").style.left=370+"px";
+	    						document.write("<p>You make it home! You win!</p>");
+	    					}
+	    					else{
+	    						document.write("<p>The path is the only way out of the woods! You lose!</p>");
+	    					}
+	    			}
+	    			else{
+	    				user.living=false;
+	    				document.write("<p>The zombie rips your face off! Too bad you didn't have a gun! You lose!</p>");
+	    			}
+	    		}
+	    }
+	    else{
+	    	document.write("<p>The path is the only way out of the woods! You lose!</p>");
+	    }
+
+    }
+    else{
+    	document.write("<p>The path is the only way out of the woods! You lose!</p>");
+    }
+</script>   
+
+
+
+
+
+
+</body>
+</html>
+  
+<!--
+// Refactored Code
+
+//Goal: Make the game playable using an input box, and hide previous messages once the player moves.
+
+
+
+
+// Reflection
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+
+-->
